@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>BlackJack</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="start_button">
+          <input type="button" class="button" id="start" value="START" />
+        </div>
+        <div class="pile"></div>
+        <div class="buttons">
+          <input
+            style="display: none"
+            type="button"
+            class="button"
+            id="draw"
+            value="DRAW"
+          />
+        </div>
+        <i id="github" class="fa-brands fa-github initial"></i>
+        <p id="score"></p>
+        <div id="hand"></div>
+        <div id="end"><p id="end_text"></p></div>
+        <input
+          style="display: none"
+          type="button"
+          class="button"
+          id="restart"
+          value="RESTART"
+        />
+      </section>
+    </main>
+    <script type="module" src="cards.js"></script>
+  </body>
+</html>
